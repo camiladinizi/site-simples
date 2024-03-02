@@ -1,0 +1,78 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(233, 231, 231);
+}
+
+.cabecalho {
+    background-color: black;
+    background-size: 100vw;
+}
+
+header > div > h1 {
+    padding: 20px 20px 5px 20px;
+    color:rgb(250, 245, 239);
+    text-align: center;
+}
+
+header > div > p {
+    color: rgb(250, 245, 239);
+    text-align: center;
+    padding: 5px 20px 20px 20px;
+}
+
+header>div>p>a {
+    color: rgb(250, 245, 239);
+    text-decoration: none;
+}
+
+header>div>p>a:hover {
+    text-decoration: line-through;
+}
+
+main > h2 {
+    text-align: center;
+    padding: 35px 20px 5px 20px;
+    text-decoration: underline overline;
+    color: rgb(65, 65, 150);
+}
+
+.thumbnail {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.thumbnail > a > img {
+    max-width: 200px;
+    max-height: 200px;
+    padding-right: 10px;
+}
+
+.thumbnail2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px 30px 30px;
+}
+
+.thumbnail2 > a > img {
+    max-width: 200px;
+    max-height: 200px;
+    padding-right: 10px;
+}
+
+article > h2 {
+    text-align: center;
+    padding: 0px 20px 5px 20px;
+    text-decoration: underline;
+    color: rgb(65, 65, 150);
+}
