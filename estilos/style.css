@@ -76,3 +76,45 @@ article > h2 {
     text-decoration: underline;
     color: rgb(65, 65, 150);
 }
+
+article > p {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+
+.imagem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.live {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.artigo > a > img {
+    max-width: 500px;
+    max-height: 350px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+footer > p {
+    color: rgb(250, 245, 239);
+    text-align: center;
+}
+
+footer > p > a {
+    color: rgb(250, 245, 239)
+}
